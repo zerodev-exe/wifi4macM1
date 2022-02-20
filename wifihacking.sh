@@ -20,7 +20,7 @@ sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Res
 #Getting a beacon
 sudo tcpdump "type mgt subtype beacon and ether src $x" -I -c 1 -i en0 -w handshakes/beacon.cap
 
-echo("Now you just have to wait until someone connects to the network.")
+echo "Now you just have to wait until someone connects to the network. Or if you have a deather that would be a good time to use it. Have fun :)"
 
 #Getting the handshake
 sudo tcpdump "ether proto 0x888e and ether host $x" -I -U -vvv -i en0 -w handshakes/handshake.cap

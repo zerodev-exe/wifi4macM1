@@ -1,4 +1,18 @@
-#Made by Altair933
+#Made by Zer0dev-byte
+
+echo 'mmmmmm                mmmm         mmmm                   m'
+echo '     #"  mmm    m mm  m"  "m        #   "m  mmm   m   m    #     mmm'
+echo '   m#   #"  #   #"  " #  m #        #    # #"  #  "m m"         #   '
+echo '  m"    #""""   #     #    #        #    # #""""   #m#           """m'
+echo ' ##mmmm "#mm"   #      #mm#         #mmm"  "#mm"    #           "mmm'
+printf "\n\n\n"
+
+echo '          "      m""    "       mm                       m    m mmm'
+echo 'm     m mmm    mm#mm  mmm      m"#  mmmmm   mmm    mmm   ##  ##   #'
+echo '"m m m"   #      #      #     #" #  # # #  "   #  #"  "  # ## #   #'
+echo ' #m#m#    #      #      #    #mmm#m # # #  m"""#  #      # "" #   #'
+echo '  # #   mm#mm    #    mm#mm      #  # # #  "mm"#  "#mm"  #    # mm#mm'
+
 
 #Disconectiong the wifi network
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport -z
